@@ -1,3 +1,4 @@
+import '../moved-site-preferences.js';
 const preview = document.querySelector('.product-window');
 
 if ('IntersectionObserver' in window) {

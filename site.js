@@ -1,3 +1,4 @@
+import './moved-site-preferences.js';
 import './state.js?v=20261017-tenebrismo-load';
 import './native-shell.js?v=20261114-previews';
 import './gallery.js?v=20261024-preview';
