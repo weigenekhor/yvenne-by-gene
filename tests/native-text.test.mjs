@@ -23,6 +23,7 @@ test('All native Home variants keep their existing labels, button names, coordin
   assert.equal((html.match(/data-inspect-app=/g)||[]).length,ref.cards.length,key);
   assert.equal((html.match(/class="native-text"/g)||[]).length,ref.cards.length+ref.headings.length,key);
   for(const card of ref.cards){
+   assert.equal(card.label.y + card.label.height, card.height - 12, key + ' ' + card.key);
    assert.ok(html.includes(`left:${card.x}px;top:${card.y}px;width:${card.width}px;height:${card.height}px`),key);
    assert.ok(html.includes(`color:${card.label.color}`),key);
   }
