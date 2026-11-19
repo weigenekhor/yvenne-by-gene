@@ -35,7 +35,8 @@ test('The title bar and navigation use bounded native typography without replaci
  assert.match(html,/class="app-greeting"><svg class="native-text"[^>]*data-native-copy="Welcome to YVENNE\."/);
  for(const attribute of ['data-mode-range','data-mode-name','data-product-status'])assert.match(html,new RegExp(`${attribute}><svg class="native-text"`));
  assert.match(html,/data-cycle-mode aria-label=/);
- assert.match(html,/data-home aria-label="Home"/);
+ assert.match(html,/data-home aria-label="Home" title="Home"/);
+ assert.match(html,/data-settings aria-label="Application Info" title="Application Info"/);
  const originalHome=html.slice(html.indexOf('<div class="home-scroll"'),html.indexOf('<footer class="app-status"'));
  assert.doesNotMatch(originalHome,/font:\d+ (?:9|1[0-5])px/,'Native typography must not be independently clamped to 16px');
 });
