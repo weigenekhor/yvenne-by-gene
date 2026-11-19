@@ -6,5 +6,6 @@ Thumbs.db
 # Historical assets remain local for frozen previews; recoverable at 5126a14.
 /assets/evidence/
 /assets/artifacts/
+/assets/yvenne/
 /assets/cursors/
 /versions/
