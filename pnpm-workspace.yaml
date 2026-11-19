@@ -1,0 +1,3 @@
+# Screenshot preparation uses Sharp platform binaries.
+allowBuilds:
+  sharp: false
