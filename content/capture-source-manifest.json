@@ -17,7 +17,7 @@
   ],
   "captures": 180,
   "encoding": "Native WebP masters with Yvenne wordmark updates where recorded. Responsive WebP quality 94.",
-  "bytes": 48116794,
+  "bytes": 48321670,
   "records": [
     {
       "app": "altus-lotviewer",
@@ -969,7 +969,7 @@
       "theme": "imprimatura",
       "source": "original/lt_report_compiler.webp",
       "sourceSha256": "04aa634e49a65ddafdb546243ba32b135019f3ae98df686f52ac94aab775c0e2",
-      "displaySha256": "ab8fdfaf30391b5916c9f117ab49f491b4364eb5c7b6f089ce4b7b9df2e752b8",
+      "displaySha256": "aadbde95b7d172706db9670be8b177f00a65d122126d8822bb3981a8c4ff7b94",
       "width": 3840,
       "height": 2560,
       "full": "assets/screens/lt-report-compiler/imprimatura-1/full.webp"
@@ -982,14 +982,14 @@
       "width": 3840,
       "height": 2560,
       "full": "assets/screens/lt-report-compiler/tenebrismo-1/full.webp",
-      "displaySha256": "f5f4637123f59dd606ca15d86cb5c5ab5d16c266ddeadb0467b92f75b16b709f"
+      "displaySha256": "796c9cca7cd34eda87e5bbece85c1ec61f31e7642c687e3cc81cff6fed0abf3d"
     },
     {
       "app": "lt-report-compiler",
       "theme": "pentimento",
       "source": "pentimento/lt_report_compiler.webp",
       "sourceSha256": "279a223229d1af8ecc34fcde72b78f3a302ec37c64537c6d9000df5548c81a49",
-      "displaySha256": "93b50acb45b5d0c3934987306a5f2269008033436b6305d2e0e12614d334f2ef",
+      "displaySha256": "1e67ece2ec0e9cf04e17c56541eed135a949ef56088a6d5180ed507e2b838234",
       "width": 3840,
       "height": 2560,
       "full": "assets/screens/lt-report-compiler/pentimento-1/full.webp"
